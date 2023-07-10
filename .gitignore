@@ -1,0 +1,12 @@
+# 忽略项目文件
+node_modules/
+dist/
+build/
+.vite/
+.hbuilderx/
+
+# 忽略editor
+.idea
+.vscode
+.history
+.DS_Store
