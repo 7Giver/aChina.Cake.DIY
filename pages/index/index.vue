@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<nut-button type="primary">主要按钮</nut-button>
+		<!-- <nut-button type="primary">主要按钮</nut-button>
 		<nut-button type="info">信息按钮</nut-button>
 		<nut-button type="default">默认按钮</nut-button>
 		<nut-button type="danger">危险按钮</nut-button>
@@ -10,7 +10,7 @@
 			<nut-cell title="链接" is-link></nut-cell>
 			<nut-cell title="URL 跳转" desc="https://m.jd.com" is-link url="https://m.jd.com"></nut-cell>
 			<nut-cell title="路由跳转 ’/‘ " to="/"></nut-cell>
-		</nut-cell-group>
+		</nut-cell-group> -->
 	</view>
 </template>
 
@@ -32,6 +32,7 @@ export default {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	min-height: 100vh;
 }
 
 .logo {
