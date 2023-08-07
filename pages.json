@@ -1,11 +1,11 @@
 {
 	"easycom": {
-		"autoscan": true,
-		"custom": {
-			"nut-(.*)?-(.*)": "@/uni_modules/sky-nutui/components/sky-nutui/packages/__VUE/$1$2/index.vue",
-			"nut-(.*)": "@/uni_modules/sky-nutui/components/sky-nutui/packages/__VUE/$1/index.vue"
-		}
-	},
+    "autoscan": true,
+    "custom": {
+      "^nut-(.*)?-(.*)": "uniapp-nutui/components/$1$2/$1$2.vue",
+      "^nut-(.*)": "uniapp-nutui/components/$1/$1.vue"
+    }
+  },
 	"pages": [
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{

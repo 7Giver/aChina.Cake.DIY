@@ -14,6 +14,7 @@ export default {
 
 <style lang="scss">
 // 一些需要全局覆盖的样式
-@import '@/uni_modules/sky-nutui/components/sky-nutui/app.scss';
+// @import '@/uni_modules/sky-nutui/components/sky-nutui/app.scss';
+@import 'uniapp-nutui/styles/index';
 @import '@/static/base.scss';
 </style>

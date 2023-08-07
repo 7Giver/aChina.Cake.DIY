@@ -1,10 +1,12 @@
 <template>
 	<view class="content">
 		<view class="flex-ac top_wrap">
-			<nut-avatar
-				size="large"
-				icon="https://img12.360buyimg.com/imagetools/jfs/t1/143702/31/16654/116794/5fc6f541Edebf8a57/4138097748889987.png"
-			></nut-avatar>
+			<nut-avatar size="normal" bg-color="transparent">
+				<image
+					style="width: 50px; height: 50px;"
+					src="https://img12.360buyimg.com/imagetools/jfs/t1/196430/38/8105/14329/60c806a4Ed506298a/e6de9fb7b8490f38.png"
+				/>
+			</nut-avatar>
 			<view class="right_wrap">
 				<nut-button type="primary">立即登录</nut-button>
 			</view>
@@ -12,12 +14,10 @@
 		<view class="main_title">我的图片</view>
 		<view class="list_wrap">
 			<view class="flex item" v-for="(item, index) in state.cakeList" :key="index">
-				<nut-image
+				<image
+					style="width: 100px; height: 100px; border-radius: 10px"
 					src="//img10.360buyimg.com/ling/jfs/t1/181258/24/10385/53029/60d04978Ef21f2d42/92baeb21f907cd24.jpg"
-					width="100"
-					height="100"
-					radius="10"
-				></nut-image>
+				></image>
 				<view class="right_wrap">
 					<view class="time">{{ item.time }}</view>
 					<view class="name">{{ item.name }}</view>
