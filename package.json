@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.8",
-    "@uni-helper/vite-plugin-uni-components": "^0.0.6"
+    "@uni-helper/vite-plugin-uni-components": "^0.0.6",
+    "@uni-helper/vite-plugin-uni-pages": "^0.2.6"
   }
 }
